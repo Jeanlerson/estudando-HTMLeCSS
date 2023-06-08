@@ -25,7 +25,7 @@ header{
     background-color: #a88a8a;
     margin-top: 10px;
     border: 2px solid #000;
-    text-shadow: 1px 1px 2px #ff0000;
+    text-shadow: 1px 1px 3px #010000;
 }
 
 .title h2, h1 {
@@ -34,14 +34,21 @@ header{
 
 #imagen img{
     border-radius: 100px;
+    border: 2px solid #000;
+    width: 100%;
+    height: 100%;
+}
+
+#imagen figcaption {
+    text-align: center;
+    font-size: 17px;
 }
 
 #imagen {
     margin-top: 10px;
-    display: flex;
     height: 550px;
-    border: 2px solid #000;
-    border-radius: 100px;
+    padding: 0px;
+    flex: 2;
 }
 
 .img_pers {
@@ -53,4 +60,31 @@ header{
 
 .img_pers img{
     width: 85%;
+}
+
+.widget{
+    display: flex;
+}
+
+.obras{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    margin: 10px;
+}
+
+article img{
+    max-width: 150px;
+    min-width: 200px;
 }
