@@ -14,3 +14,19 @@ input[type=email] {
 input[name="nome"] {
     border: solid 2px #f81be5;
 }
+
+a {
+    text-decoration: none;
+}
+
+a[href*="fortaleza"] {
+    color: #f00;
+}
+
+a[href^="http:"] {
+    border-bottom: solid 1px black;
+}
+
+a[href$="ghtml"] {
+    border-top: solid 2px black;
+}
