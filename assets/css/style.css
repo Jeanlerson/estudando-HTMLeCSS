@@ -44,3 +44,19 @@ p::first-letter {
 p::first-line {
     background-color: #f81be5;
 }
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+}
+
+div:first-of-type {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div:last-of-type {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
