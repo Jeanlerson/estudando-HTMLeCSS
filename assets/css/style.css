@@ -1,8 +1,13 @@
 body {
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 
-div:nth-last-child(3) {
-    background-color: black;
+span::before {
+    content: "<-";
+}
+
+span::after {
+    content: "->";
 }
