@@ -11,3 +11,19 @@ span::before {
 span::after {
     content: "->";
 }
+
+div::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #ff0;
+    display: inline-block;
+}
+
+div::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #ff0;
+    display: inline-block;
+}
