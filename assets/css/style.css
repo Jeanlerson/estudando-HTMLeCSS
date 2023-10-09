@@ -1,39 +1,14 @@
 body {
-    background-color: #000;
-    display: flex;
+    background-image:url("../img/obra8.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.balao {
-    background-color: #00f;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 20px;
-    color: #fff;
-}
-
-.balao::after {
-    content: '';
-    display: block;
-    position: absolute;
-    margin-top: 20px;
-    
-    border: 20px solid;
-    border-color: #00f transparent transparent transparent;
-}
-
-#bl2 {
-    background-color: #fff;
-    color: #000;
-    margin-top: 60px;
-    margin-left: 30px;
-}
-
-#bl2::after {
-    margin-left: 80px;
-    border-color: #fff transparent transparent transparent;
-}
-
-.teste {
-    border: 70px solid;
-    border-color: #fff #f00 #0f0 #00f;
+div {
+    background-color: rgba(255, 0, 0, 0.6);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
