@@ -30,19 +30,3 @@ div::before {
     display: inline-block;
 }
 
-.inputs {
-    display: flex;
-    flex-direction: column;
-}
-
-input {
-    width: 50%;
-    height: 30px;
-    padding: 5px;
-    margin: 10px;
-    border: solid 3px #f00;
-    border-radius: 10px;
-    background-color: rgba(75, 75, 224, 0.773);
-    font-size: 20px;
-    color: #000;
-}
