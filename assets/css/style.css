@@ -1,14 +1,20 @@
-body {
-    background-image:url("../img/obra8.jpg");
-    background-size: cover;
-    background-position: center;
+div {
+    width: 200px;
+    height: 200px;
+    margin: auto;
 }
 
-div {
-    background-color: rgba(255, 0, 0, 0.6);
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
+#div1 {
+    transform: scale(2,0.5);
+    background-color: #f00;
+}
+
+#div2 {
+    transform: scaleX(3);
+    background-color: #0f0;
+}
+
+#div3 {
+    transform: scaleY(2);
+    background-color: #00f;
 }
