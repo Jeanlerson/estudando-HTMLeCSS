@@ -5,16 +5,16 @@ div {
 }
 
 #div1 {
-    transform: scale(2,0.5);
+    transform: rotate(-30deg);
     background-color: #f00;
 }
 
 #div2 {
-    transform: scaleX(3);
+    transform: rotate(30deg);
     background-color: #0f0;
 }
 
 #div3 {
-    transform: scaleY(2);
+    transform: rotate(-50deg);
     background-color: #00f;
 }
