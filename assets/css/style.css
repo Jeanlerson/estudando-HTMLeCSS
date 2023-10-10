@@ -5,16 +5,16 @@ div {
 }
 
 #div1 {
-    transform: rotate(-30deg);
+    transform: skew(-30deg);
     background-color: #f00;
 }
 
 #div2 {
-    transform: rotate(30deg);
+    transform: skew(30deg);
     background-color: #0f0;
 }
 
 #div3 {
-    transform: rotate(-50deg);
+    transform: skew(-30deg);
     background-color: #00f;
 }
