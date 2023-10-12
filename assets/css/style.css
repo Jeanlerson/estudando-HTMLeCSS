@@ -18,3 +18,8 @@ div {
     transform: skew(-30deg);
     background-color: #00f;
 }
+
+#div4 {
+    transform: skew(30deg);
+    background-color: #f0f;
+}
