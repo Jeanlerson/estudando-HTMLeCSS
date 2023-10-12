@@ -1,25 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
 div {
+    background-color: #ff0;
     width: 200px;
     height: 200px;
-    margin: auto;
-}
-
-#div1 {
-    transform: skew(-30deg);
-    background-color: #f00;
-}
-
-#div2 {
-    transform: skew(30deg);
-    background-color: #0f0;
-}
-
-#div3 {
-    transform: skew(-30deg);
-    background-color: #00f;
-}
-
-#div4 {
-    transform: skew(30deg);
-    background-color: #f0f;
+    border: 10px solid #f0f;
 }
