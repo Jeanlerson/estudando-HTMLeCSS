@@ -1,3 +1,11 @@
+body {
+    display: flex;
+}
+
+table {
+    margin: 20px;
+}
+
 td {
     border: 2px solid #000;
     width: 50px;
@@ -9,4 +17,16 @@ th {
     width: 50px;
     padding: 5px;
     background-color: #00FF23;
+}
+
+tbody tr:nth-child(odd) { /* PARA ÍMPAR */
+    background-color: #C5C5C5;
+}
+
+#table2 tbody tr:nth-child(even) { /* PARA PAR */
+    background-color: #5c5c5c;
+}
+
+#table2 tbody tr:nth-child(odd) {
+    background-color: #fff;
 }
