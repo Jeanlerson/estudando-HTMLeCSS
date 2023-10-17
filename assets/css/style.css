@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao {
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 15px;
+    background-color: rgb(24, 24, 167);
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: rgba(24, 24, 167, 0.85);
+}
